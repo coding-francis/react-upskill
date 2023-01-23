@@ -1,5 +1,4 @@
 import { BrowserRouter,Routes, Route} from "react-router-dom";
-import 'antd/dist/reset.css';
 import Home from "./components/home";
 import Attorneys from "./components/attorney";
 import About from "./components/about";

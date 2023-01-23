@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./styles.css";
 import Vector from "../assets/images/vector.png";
-import Igstudio from "../assets/images/ig-studio.png";
+// import Igstudio from "../assets/images/ig-studio.png";
 
 const Navbar = () => {
     return (
