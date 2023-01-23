@@ -11,7 +11,7 @@ const AboutUs =()=>{
                     <h1>Let&apos;s Introduce <br/> <br/> Ourself</h1>
                    </div>
                    <div className="criminal">
-                    <h2>Criminal Lawyer <br/></h2>
+                    <h2>Criminal Lawyer</h2>
                     <p> Amet minim mollit non deserunt ullamco est <br/>
                         sit aliqua dolor do amet sint. Velit officia consequatduis <br/>
                         enim velit mollit Exercitation.</p>

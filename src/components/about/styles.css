@@ -1,3 +1,197 @@
-h1{
-    color: white;
+.about-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 0.2;
+}
+
+.intro {
+    flex: 0.5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 141.52%;
+
+}
+
+.criminal{
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.criminal h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 162.52%;
+}
+
+.criminal p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 162.52%;
+    margin-left: 20%;
+    margin-top: -1%;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+.cards-container{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+.cards-container .text{
+    flex: 0.2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 143.02%;
+    color: #FFFFFF;
+}
+
+.mini-cards{
+    flex: 0.8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    transition: 2000ms ease-in-out;
+}
+
+.mini-cards:hover{
+    transform: scale(1.2);
+}
+
+.mini-cards .first-card{
+    background: #1D1D1D;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+
+.mini-cards .first-card h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.mini-cards .first-card p{
+    margin-top: -3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 162.52%;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+button{
+    width: 40%;
+    height: 5vh;
+    background: #E3B748;
+    border-radius: 23.5px;
+}
+
+.read-link{
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.mini-cards .second-card{
+    background: #1D1D1D;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2%;
+
+}
+
+.mini-cards .second-card .h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.mini-cards .second-card p{
+    margin-top: -3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 162.52%;
+    color: #FFFFFF;
+    opacity: 0.3;
+
+}
+
+.mini-cards .third-card{
+    background: #1D1D1D;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    height: 43vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 2%;
+
+}
+
+.mini-cards .third-card h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.mini-cards .third-card p{
+    margin-top: -3%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 162.52%;
+    color: #FFFFFF;
+    opacity: 0.3;
+
 }
