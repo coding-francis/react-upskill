@@ -1,11 +1,13 @@
 import React from "react";
+import Layout from "../../layout/"
+import PracticeArea from "./practice-area";
 import "./styles.css"
 
 const Area =()=>{
     return(
-        <div>
-              <h1>Contact Page</h1>
-        </div>
+        <Layout>
+            <PracticeArea/>
+        </Layout>
     )
 }
 
