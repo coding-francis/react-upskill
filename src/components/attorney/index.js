@@ -1,11 +1,12 @@
 import React from "react";
 import "./styles.css"
+import Layout from "../../layout";
 
 const Attorneys =()=>{
     return(
-        <div>
-                <h1>Our Attorneys</h1>
-        </div>
+          <Layout>
+
+          </Layout>
     )
 }
 

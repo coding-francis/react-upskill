@@ -16,7 +16,7 @@ const PracticeArea =()=>{
 
                  <div id="cards">
                          <div id="mini-card1">
-                               <h3>  <img id="business" src={business}alt=""/><span>BUSINESS LAW</span> </h3>
+                               <h3>  <img id="business" src={business}alt=""/><span id="span1">BUSINESS LAW</span> </h3>
                                <h3> <img id="partnership" src={partnership} alt="" /><span id="span2"> PARTNERSHIP LAW</span></h3>
                          </div>
 
@@ -28,7 +28,7 @@ const PracticeArea =()=>{
                          <div id="mini-card3">
                                <h3> <img id="landlords" src={landlords} alt="" /> <span id="span5">LANDLORDS DISPUTES</span></h3>
                                <h3> <img id="abuse" src={abuse} alt="" /><span id="span6"> ELDERS ABUSE </span></h3>
-                         </div>   
+                         </div> 
                  </div>
          </div>      
     )
