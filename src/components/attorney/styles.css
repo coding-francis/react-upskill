@@ -80,6 +80,24 @@
     line-height: 24px;
 }
 
+#mini-card h5{
+    line-height:24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#mini-card1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 162.52%;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
 #mini-card2{
     background: #1D1D1D;
     border: 1.4px solid rgba(255, 255, 255, 0.1);
@@ -95,6 +113,38 @@
     line-height: 24px;
 }
 
+#mini-card h5{
+    line-height:24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#mini-card1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 162.52%;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+#mini-card3{
+    background: #1D1D1D;
+    border: 1.4px solid rgba(255, 255, 255, 0.1);
+    border-radius: 14px;
+    padding-left: 2%;
+}
+
+#mini-card3 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
 
 
 
