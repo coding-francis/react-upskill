@@ -16,18 +16,18 @@ const PracticeArea =()=>{
 
                  <div id="cards">
                          <div id="mini-card1">
-                               <h3>BUSINESS LAW <img id="business" src={business}alt=""/></h3>
-                               <h3>PARTNERSHIP LAW <img id="partnership" src={partnership} alt="" /></h3>
+                               <h3>  <img id="business" src={business}alt=""/><span>BUSINESS LAW</span> </h3>
+                               <h3> <img id="partnership" src={partnership} alt="" /><span id="span2"> PARTNERSHIP LAW</span></h3>
                          </div>
 
                          <div id="mini-card2">
-                               <h3>REAL ESTATE LAW <img id="realestate" src={realestate} alt="" /></h3>
-                               <h3>BUSINESS LAW <img id="business2" src={business2} alt="" /></h3>
+                               <h3> <img id="realestate" src={realestate} alt="" /><span id="span3">REAL ESTATE LAW</span></h3>
+                               <h3> <img id="business2" src={business2} alt="" /><span id="span4"> BUSINESS LAW</span></h3>
                          </div>
 
                          <div id="mini-card3">
-                               <h3> LANDLORDS DISPUTES <img id="landlords" src={landlords} alt="" /></h3>
-                               <h3> ELDERS ABUSE <img id="abuse" src={abuse} alt="" /></h3>
+                               <h3> <img id="landlords" src={landlords} alt="" /> <span id="span5">LANDLORDS DISPUTES</span></h3>
+                               <h3> <img id="abuse" src={abuse} alt="" /><span id="span6"> ELDERS ABUSE </span></h3>
                          </div>   
                  </div>
          </div>      
