@@ -4,6 +4,7 @@ import Layout from "../../layout";
 import LandingHero from "./landing";
 import AboutUs from "../about/about-us";
 import PracticeArea from "../area/practice-area";
+import AttorneysPage from "../attorney/attorney";
 
 const Home =()=>{
 return(
@@ -11,6 +12,7 @@ return(
         <LandingHero/>
         <AboutUs/>
         <PracticeArea/>
+        <AttorneysPage/>
     </Layout>
     )
 }
