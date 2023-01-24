@@ -11,7 +11,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 34px;
     line-height: 143.02%;
 }
 
@@ -21,6 +21,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    
 }
 
 #practice-container #cards #mini-card1{
@@ -52,9 +53,9 @@ span{
     bottom: 7vh;
 }
 
-#partnership{
+#partnership{ 
     width: 100%;
-    height: 40vh;
+    height: 41vh;
     border-radius: 14px;
     transition: 2000ms ease-in;
 }
@@ -75,11 +76,13 @@ span{
     align-items: center;
     justify-content: flex-start;
     gap: 30px;
+    position: relative;
+    bottom: 8vh;
 }
 
 #realestate{
     width:100%;
-    height: 45vh;
+    height: 41vh;
     border-radius: 14px;
     transition: 2000ms ease-in;
 }
@@ -103,3 +106,40 @@ span{
 #business2:hover{
     transform: scale(1.2);
 }
+
+#practice-container #cards #mini-card3{
+    flex: 0.33;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    position: relative;
+    bottom: 18vh;
+}
+
+#mini-card3 #landlords{
+    width: 100%;    
+    border-radius: 14px;
+    transition: 2000ms ease-in;
+}
+
+#landlords:hover{
+    transform: scale(1.2);
+}
+
+#span5{
+    position: relative;
+    left: 30%;
+}
+
+#abuse{
+    width:100%;
+    height: 41vh;
+    border-radius: 14px;
+    transition: 2000ms ease-in;
+}
+
+#abuse:hover{
+    transform: scale(1.2);
+}
+
