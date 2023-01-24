@@ -25,25 +25,34 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 34px;
+    font-size: 44px;
     line-height: 143.02%;
     
 }
 
 #text-icon{
     position: relative;
-    left:180%;
+    left:100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #text-icon #icon1{
-
+    border: 2.2px solid #000000;
+    border-radius: 100px;
+    background: #E6E6E6;
+    width: 8vw;
+    height: 200%;
+    margin-right: 30%;
 }
 
-#text-icon #icon1{
-
+#text-icon #icon2{
+    background: #E3B748;
+    border: 2.2px solid #000000;
+    border-radius: 100px;
+    width: 8vw;
+    height: 100%;
 }
 
 
