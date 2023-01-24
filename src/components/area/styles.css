@@ -1,0 +1,38 @@
+#practice-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+#practice-container #text{
+    flex: 0.2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 143.02%;
+}
+
+#practice-container #cards{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#practice-container #cards #mini-card1{
+    flex: 0.33;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+#mini-card1 #business{
+    width: 100%;    
+    border-radius: 14px;
+    
+}

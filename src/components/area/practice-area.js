@@ -9,25 +9,25 @@ import realestate from "../../assets/images/realestate.png";
  
 const PracticeArea =()=>{
     return( 
-         <div classname="practise-container">
-                 <div classname="text">
-                       <h1>Area of Practices</h1>
+         <div id="practice-container">
+                 <div id="text">
+                       <h1>Area of Practices</h1> 
                  </div>
 
-                 <div classname="cards">
-                         <div classname="mini-card1">
-                               <h3>BUSINESS LAW <img src={business}alt=""/></h3>
-                               <h3>PARTNERSHIP LAW <img src={partnership} alt="" /></h3>
+                 <div id="cards">
+                         <div id="mini-card1">
+                               <h3>BUSINESS LAW <img id="business" src={business}alt=""/></h3>
+                               <h3>PARTNERSHIP LAW <img id="partnership" src={partnership} alt="" /></h3>
                          </div>
 
-                         <div classname="mini-card2">
-                               <h3>REAL ESTATE LAW <img src={realestate} alt="" /></h3>
-                               <h3>BUSINESS LAW <img src={business2} alt="" /></h3>
+                         <div id="mini-card2">
+                               <h3>REAL ESTATE LAW <img id="realestate" src={realestate} alt="" /></h3>
+                               <h3>BUSINESS LAW <img id="business2" src={business2} alt="" /></h3>
                          </div>
 
-                         <div classname="mini-card3">
-                              <img src={landlords} alt="" />
-                              <img src={abuse} alt="" />
+                         <div id="mini-card3">
+                               <h3> LANDLORDS DISPUTES <img id="landlords" src={landlords} alt="" /></h3>
+                               <h3> ELDERS ABUSE <img id="abuse" src={abuse} alt="" /></h3>
                          </div>   
                  </div>
          </div>      
