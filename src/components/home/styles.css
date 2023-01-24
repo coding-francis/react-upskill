@@ -1,0 +1,86 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-desc {
+    flex: 0.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.hero-desc>h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 147.52%;
+    color: #ffffff80;
+}
+
+.cute-form {
+    display: flex;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 43px;
+    width: 100%;
+    padding: 10px;
+}
+
+.cute-form .input-area {
+    flex: 0.6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.cute-form .input-area input {
+    padding: 8px 12px;
+    background-color: transparent !important;
+    border: none !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 162.52%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cute-form .btn {
+    flex: 0.4;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cute-form .btn button {
+    background: #E3B748 !important;
+    border-radius: 43px;
+    padding: 18px 32px;
+    border: none;
+}
+
+.hero-img{
+    flex: 0.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-inner{
+    /* background-color: #E3B748; */
+    background: url('../../assets/images/cirlces.svg'), #E3B748;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-inner img{
+    position: relative;
+    bottom: -30;
+
+}

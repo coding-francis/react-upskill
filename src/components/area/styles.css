@@ -1,0 +1,145 @@
+#practice-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+
+#practice-container #text{
+    flex: 0.2;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 143.02%;
+}
+
+#practice-container #cards{
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+#practice-container #cards #mini-card1{
+    flex: 0.33;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+#mini-card1 #business{
+    width: 100%;    
+    border-radius: 14px;
+    transition: 2000ms ease-in;
+}
+
+#business:hover{
+    transform: scale(1.2);
+}
+
+span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+    left: 40%;
+    bottom: 7vh;
+}
+
+#partnership{ 
+    width: 100%;
+    height: 41vh;
+    border-radius: 14px;
+    transition: 2000ms ease-in;
+}
+
+#partnership:hover{
+    transform: scale(1.2);
+}
+
+#span2{
+    font-size: 20px;
+    position: relative;
+    left: 20%;
+}
+
+#practice-container #cards #mini-card2{
+    flex: 0.33;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    position: relative;
+    bottom: 8vh;
+}
+
+#realestate{
+    width:100%;
+    height: 41vh;
+    border-radius: 14px;
+    transition: 2000ms ease-in;
+}
+
+#realestate:hover{
+    transform: scale(1.2);
+}
+
+#span3{
+    font-size: 20px;
+    position: relative;
+    left: 20%;
+}
+
+#mini-card2 #business2{
+    width: 100%;    
+    border-radius: 14px;
+    transition: 2000ms ease-in;
+}
+
+#business2:hover{
+    transform: scale(1.2);
+}
+
+#practice-container #cards #mini-card3{
+    flex: 0.33;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    position: relative;
+    bottom: 18vh;
+}
+
+#mini-card3 #landlords{
+    width: 100%;    
+    border-radius: 14px;
+    transition: 2000ms ease-in;
+}
+
+#landlords:hover{
+    transform: scale(1.2);
+}
+
+#span5{
+    position: relative;
+    left: 30%;
+}
+
+#abuse{
+    width:100%;
+    height: 41vh;
+    border-radius: 14px;
+    transition: 2000ms ease-in;
+}
+
+#abuse:hover{
+    transform: scale(1.2);
+}
+
