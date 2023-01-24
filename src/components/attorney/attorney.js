@@ -12,9 +12,11 @@ const AttorneysPage =()=>{
          <div id="attorney-container">
                
                <div id="mini-container1">
-                <div id="text">
-                     <h2>What says our <br/> happy Clients</h2>
-                     <FcLeft size={50}/> <FcRight size={50}/>                   
+                <div id="text-container">
+                     <h2 id="text">What says our <br/> happy Clients</h2>
+                     <div id="text-icon">
+                         <FcLeft id="1" size={50}/> <FcRight id="2" size={50}/>
+                     </div>                   
                 </div>
 
                 <div id="card-container1">
