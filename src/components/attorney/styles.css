@@ -61,8 +61,10 @@
 #card-container1{
     flex: 0.7;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    margin-top: 4%;
 }
 
 #mini-card1{
@@ -144,6 +146,23 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
+}
+#mini-card3 h5{
+    line-height:24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#mini-card3 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 162.52%;
+    color: #FFFFFF;
+    opacity: 0.3;
 }
 
 
