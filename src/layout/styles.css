@@ -1,0 +1,66 @@
+/* Layout styles */
+.layout {
+    max-width: 100%;
+    padding: 0 200px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* Navbar styles */
+
+.navbar {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-logo {
+    flex: 0.3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-logo>span {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 25px;
+}
+
+.nav-links {
+    flex: 0.7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 162.52%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.contact-container {
+    border: 2px solid #FFFFFF;
+    padding: 14px 35px;
+}
+
+a {
+    color: #FFFF;
+}
+
+img {
+    margin-top: 3%;
+}
+
+.NavImage {
+    margin-left: 10%;
+}
+
+/* Footer styles */

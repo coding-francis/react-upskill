@@ -1,9 +1,21 @@
+import { BrowserRouter,Routes, Route} from "react-router-dom";
+import Home from "./components/home";
+import Attorneys from "./components/attorney";
+import About from "./components/about";
+import Contact from "./components/contact";
+import Area from "./components/area";
+
 function App() {
   return (
-    <>
-      <h1>React Upskill</h1>
-      <a>This is the President branch.</a>
-    </>
+      <BrowserRouter>
+          <Routes>
+              <Route path="/" element={<Home/>}/>
+              <Route path="/Attorneys" element={<Attorneys/>}/>
+              <Route path="/About" element={<About/>}/>
+              <Route path="/Contact" element={<Contact/>}/> 
+              <Route path="/Area" element={<Area/>} />
+          </Routes>
+      </BrowserRouter>
   );
 }
 
